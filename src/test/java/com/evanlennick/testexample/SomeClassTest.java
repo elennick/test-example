@@ -1,6 +1,6 @@
 package com.evanlennick.testexample;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -12,5 +12,5 @@ public class SomeClassTest {
 
         assertThat(someClass.getSomeValue()).isEqualTo("some value");
     }
-    
+
 }
